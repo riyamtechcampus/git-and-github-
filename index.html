@@ -6,11 +6,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="/jquery-3.4.1.min.js">
+    <script>
+        $(document).ready(function () {
+            $(window).scroll(function () {
+                $('p').text('hello world ')
+            })
+        })
+    </script>
     <title>my app</title>
 </head>
 
 <body>
-    this is my app ?
+    <p>this is my app </p>
+    <button id="btn">click me </button>
+
+
 </body>
 
 </html>
